@@ -29,7 +29,7 @@ let vol = 0;
 function preload() {
 	logo = loadImage('Apple_Logo.svg');
 	keyboard = loadImage('keyboard2.jpg');
-	tune = loadSound('christmas.mp3');
+	//tune = loadSound('christmas.mp3');
 	welcome = loadImage('opwelcome.PNG');
 	pro = loadImage('macbookpro.png');
 	sketchbg = loadImage('sketchbg.PNG');
