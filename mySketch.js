@@ -26,14 +26,14 @@ let greetings = [
 let index = 0;
 let vol = 0;
 
-function preload() {
-	logo = loadImage('Apple_Logo.svg');
-	keyboard = loadImage('keyboard2.jpg');
-	//tune = loadSound('christmas.mp3');
-	welcome = loadImage('opwelcome.PNG');
-	pro = loadImage('macbookpro.png');
-	sketchbg = loadImage('sketchbg.PNG');
-}
+// function preload() {
+// 	logo = loadImage('Apple_Logo.svg');
+// 	keyboard = loadImage('keyboard2.jpg');
+// 	//tune = loadSound('christmas.mp3');
+// 	welcome = loadImage('opwelcome.PNG');
+// 	pro = loadImage('macbookpro.png');
+// 	sketchbg = loadImage('sketchbg.PNG');
+// }
 
 function setup() {
 	createCanvas(windowWidth, windowHeight, WEBGL);
@@ -51,14 +51,14 @@ function setup() {
 
 function draw() {
 	setScene();
-	if (frameCount > 60) zoom = lerp(zoom, ztarget, 0.1);
-	if (frameCount > 90) orient.lerp(otarget, 0.1);
-	rotateX(orient.x - PI / 12);
-	rotateY(orient.y);
-	rotateZ(orient.z);
-	translate(0, 0.2 * height, 0);
-	drawBase();
-	drawTop();
+// 	if (frameCount > 60) zoom = lerp(zoom, ztarget, 0.1);
+// 	if (frameCount > 90) orient.lerp(otarget, 0.1);
+// 	rotateX(orient.x - PI / 12);
+// 	rotateY(orient.y);
+// 	rotateZ(orient.z);
+// 	translate(0, 0.2 * height, 0);
+// 	drawBase();
+// 	drawTop();
 }
 
 function setScene() {
