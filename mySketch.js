@@ -27,12 +27,12 @@ let index = 0;
 let vol = 0;
 
 function preload() {
-	logo = loadImage('https://ivanrudnicki321.github.io/holidaycard/Apple_Logo.svg');
-	keyboard = loadImage('https://ivanrudnicki321.github.io/holidaycard/keyboard2.jpg');
-	tune = loadSound('https://ivanrudnicki321.github.io/holidaycard/christmas.mp3');
-	welcome = loadImage('https://ivanrudnicki321.github.io/holidaycard/opwelcome.PNG');
-	pro = loadImage('https://ivanrudnicki321.github.io/holidaycard/macbookpro.png');
-	sketchbg = loadImage('https://ivanrudnicki321.github.io/holidaycard/sketchbg.PNG');
+	logo = loadImage('https://github.com/ivanrudnicki321/holidaycard/blob/main/Apple_Logo.svg');
+	keyboard = loadImage('https://github.com/ivanrudnicki321/holidaycard/blob/main/keyboard2.jpg');
+	tune = loadSound('https://github.com/ivanrudnicki321/holidaycard/blob/main/christmas.mp3');
+	welcome = loadImage('https://github.com/ivanrudnicki321/holidaycard/blob/main/opwelcome.PNG');
+	pro = loadImage('https://github.com/ivanrudnicki321/holidaycard/blob/main/macbookpro.png');
+	sketchbg = loadImage('https://github.com/ivanrudnicki321/holidaycard/blob/main/sketchbg.PNG');
 }
 
 function setup() {
